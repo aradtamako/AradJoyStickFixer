@@ -3,16 +3,14 @@
 ### Features
 - Disable mouse move(right stick)
 
-### Download
-https://github.com/aradtamako/AradJoyStickFixer/releases
-
 ### How to use
-1. Copy DLL to Arad client directory
+1. Build x64 DLL yourself
+2. Copy DLL to Arad client directory
 ```
 copy AradJoyStickFixer.dll C:\Nexon\ARAD\version.dll
 ```
 
-2. Start Arad as usual
+3. Start Arad as usual
 
 ### Requirements
 - Windows 64bit
