@@ -125,13 +125,13 @@ void DetourGetDeviceState() {
 			case sizeof(DIJOYSTATE) :
 				// I don't have any devices run this scene, so i can't implement
 				break;
-				case sizeof(DIJOYSTATE2) :
-					auto data = reinterpret_cast<DIJOYSTATE2*>(lpvData);
+			case sizeof(DIJOYSTATE2) :
+				auto data = reinterpret_cast<DIJOYSTATE2*>(lpvData);
 
-					// Change right stick state
-					data->lZ = 0;
-					data->lRz = 0;
-					break;
+				// Change right stick state
+				data->lZ = 0;
+				data->lRz = 0;
+				break;
 		}
 
 		return result;
