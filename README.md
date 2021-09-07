@@ -27,4 +27,4 @@ vcpkg install detours:x64-windows
 ```
 
 # Third Party License(s)
-- Detours ([MIT License](https://github.com/microsoft/Detours))
+- Detours ([MIT License](https://github.com/microsoft/Detours/blob/master/LICENSE.md))
