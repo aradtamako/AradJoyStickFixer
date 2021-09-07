@@ -26,8 +26,12 @@ copy AradJoyStickFixer.dll C:\Nexon\ARAD\version.dll
 vcpkg install detours:x64-windows
 ```
 
-# Third Party License(s)
+### Third Party License(s)
 - Detours ([MIT License](https://github.com/microsoft/Detours/blob/master/LICENSE.md))
 
-# Tested devices
+### Tested devices
 - Windows 10 64bit 20H2, [BSGP1601BK](https://www.buffalo.jp/product/detail/bsgp1601bk.html) (2021/09/07)
+
+### References
+- https://taisyo7333.exblog.jp/1430450/
+- https://github.com/CasualCoder91/DirectInputYT
