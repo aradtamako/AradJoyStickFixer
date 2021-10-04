@@ -128,6 +128,16 @@ void DetourGetDeviceState() {
 			case sizeof(DIJOYSTATE2) :
 				auto data = reinterpret_cast<DIJOYSTATE2*>(lpvData);
 
+				/*
+				// EasyDash for keyboard
+				if (GetAsyncKeyState(VK_LEFT) & 0x8000) {
+					data->lX = -1000;
+				}
+				else if (GetAsyncKeyState(VK_RIGHT) & 0x8000) {
+					data->lX = 1000;
+				}
+				*/
+
 				// Change right stick state
 				data->lZ = 0;
 				data->lRz = 0;
